@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Mazealgrotham.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="startPage">
+    <div>
+      <img src="maze game .gif" alt="Mage_Game_Name">
+
+      <button class="start-bt-1">Start</button>
+    </div>
+
+    <div id="userDetails">
+           <div>
+              <img src="player-1.png" alt="">
+              <input type="text" value="Player1" id="player_1_name" class="player-inp">
+          </div>
+          <div>
+            <img src="player-2.png" alt="">
+            <input type="text" value="Player2" id="player_2_name" class="player-inp">
+         </div>
+         <input type="button" value="Next" id="startGame">
+    </div>
+  </section>
+
+
+
+
+
+  <section class="GameViewBox">
+        <div class="mazeOuterCover">
+          <section id="gamePlace">
+            <div class="gameBorder closePath" id="topSideWall"></div>
+            <section id="gameInsidePath">
+                <div class="sideBorder closePath" id="leftSideBorder"></div>
+                <div>
+                    <section id="mazeRootMap"></section>
+                    <!-- <div class="closePath"></div> -->
+                    <div id="player1"><div id="player1Name" class="sixtyfour-playerName">Player1</div></div>
+                    <div id="player2"><div id="player2Name" class="sixtyfour-playerName">Player2</div></div>
+                </div>
+                <div class="sideBorder closePath" id="rightSideBorder"></div>
+            </section>
+           <div class="gameBorder closePath" id="bottomSideWall"></div>
+        </section>
+        </div>
+  </section>
+
+  <section class="result-page">
+    <div class="inner-result-page">
+
+      <h1><span class="result-name">test</span> Won The Game!</h1>
+
+      <div class="logo-img">
+
+      </div>
+
+      <div class="logo-name">
+        <h2 class="name-logo">Apptics</h2>
+      </div>
+
+      <button class="restart" onclick="window.location.reload()"> Restart</button>
+
+      <img src="ezgif.com-animated-gif-maker.gif" alt="gif" class="pump pump1">
+      <img src="ezgif.com-animated-gif-maker.gif" alt="gif" class="pump pump2">
+
+    </div>
+  </section>
+</body>
+
+<script src="script.js"></script>
+</html>
